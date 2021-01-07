@@ -1,0 +1,119 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 20px; 
+    margin-bottom: 40px;      
+}
+
+
+.hello, .about{
+    height: 500px;
+    margin: 40px;
+    /*border: 10px solid green;*/
+    padding: 10px;   
+}
+.latest-working-project{
+    height: 600px;
+    margin: 20px;
+    /*border: 10px solid green;*/
+    padding: 10px;   
+}
+.skill-set{
+    height: 600px;
+    margin: 20px;
+    /*border: 10px solid green;*/
+    padding: 10px;   
+}
+.hello-txt, .about-pic{
+    float: left;
+    margin-left: 20px;
+    width: 47%;
+    height: 490px;
+    /*border: 5px solid red; */    
+}
+.hello-pic, .about-txt{
+    float: right;
+    margin-right: 40px;
+    width: 47%;
+    height: 490px;
+    /*border: 5px solid red; */      
+}
+.hello-pic img, .about-pic  img{
+    width: 50%;
+}
+
+.name-highlight{
+    color: orangered; 
+}
+.skill-highlight{
+    color:yellowgreen;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);    
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#working-project{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;    
+}
+.power-x-gym, .creative-agency, .hard-rock-music{
+    float: left;
+    margin-left: 5%;
+    width: 26%;
+    height: 420px;
+    /*border: 5px solid red; */ 
+}
+
+
+.power-x-gym img, .creative-agency img, .hard-rock-music img{
+    width: 100%;
+    height: auto;
+    }
+.work-inquiry-button, .extra{
+    margin: 20px;
+    height: 200px;    
+    /*border: 10px solid green;*/
+    padding: 10px; 
+}
+.inside-work-inquiry, .extra-text{    
+    margin: 0 auto;  
+    margin-top: 25px; 
+    width: 600px;
+    height: 150px;        
+    background-image: url(images/work-inquiry.png);
+    background-repeat: no-repeat;
+    background-size: contain;    
+    /*border: 5px solid red; */   
+       
+}
+.inside-work-inquiry h2, .extra-text h2{
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 40px;
+}
+.lets-chat-button{
+    float: right;
+    margin: 50px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;  
+}
